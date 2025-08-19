@@ -7,14 +7,13 @@ We aim to transform the transcational data into a customer-centric dataset by cr
 the segmentation of customers into distinct groups using the K-means clustering algorithm.
 This segmentation will allow us to understand the distinct profiles and preferences of different customer groups.
 
-## Project Files / Repository Contents
+## Repository Contents
 - **data** :
-  - `raw/transaction.csv`, `raw/articles.csv` : original data
-  - `merged_df.csv` : merged dataset from the original files
-  - `customer_data.csv`: newly generated customer data with 14 main columns
+  - `Handwriting.pdf`: Example of original handwritten diary data
+  - `Diary.csv` : Sample of dataframe containing 250 diary entries  
 - **notebook**
-  - `Segmentation & recommendation.ipynb` : analysis and modeling
-- **assets** : Visualisations, such as `Radar chart.png` and `histogram chart.png` after k-means clustering.
+  - `Sentiment_Analysis.ipynb` : Notebook for analysis and modeling
+- **assets** :
 
 
 ## Strategies flow
