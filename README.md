@@ -1,11 +1,10 @@
 # Sentiment Analaysis with Emotion Diary
 
-## Project Summary / Overview
-The aim of this project is to analysis studnets' handwriting emotion diary and give them personalized feedback using the result.
-I aim to tranform the diaries into text dataset 
-We aim to transform the transcational data into a customer-centric dataset by creating new features that will facilitate 
-the segmentation of customers into distinct groups using the K-means clustering algorithm.
-This segmentation will allow us to understand the distinct profiles and preferences of different customer groups.
+## Project Summary
+The aim of this project is to analyze students' handwritten emotion diaries and provide personalized feedback based on the results.
+Technically, the project focuses on NLP and LLM techniques, including sentiment analysis with BERT and prompt engineering to extract targeted insights.
+Additionally, Neo4j and WeWeb were used to visualize outcomes, making the project more intuitive and engaging.
+This project demonstrates how to derive insights from students’ writings and contributes to supporting children’s personal growth.
 
 ## Repository Contents
 - **data** :
