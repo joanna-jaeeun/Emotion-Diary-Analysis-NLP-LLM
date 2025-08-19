@@ -16,7 +16,7 @@ This project demonstrates how to derive insights from students’ writings and c
 
 
 ## Strategies flow
-- **ORC and creating dataframe** : Using Google AI Studio, transform diaries into text datasets and create a dataframe with dataset information.
+- **OCR and creating dataframe** : Using Google AI Studio, transform diaries into text datasets and create a dataframe with dataset information.
 - **Personal data encryption** : To protect privacy, encrypt students' names by replacing them with nicknames.
 - **Data analysis** : Using Neo4j (graph database system), analyze subtle changes in students' friendships and check their relationship status. Compare outcomes with n-gram structures in Neo4j.
 - **Pseudo labeling** : For unlabeled datasets, apply the "sangrimlee/bert-base-multilingual-cased-nsmc" model with the emotion column, and correct mislabeled data.
