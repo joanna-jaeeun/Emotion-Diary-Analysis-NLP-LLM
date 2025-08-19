@@ -17,13 +17,14 @@ This segmentation will allow us to understand the distinct profiles and preferen
 - **assets** : Visualisations, such as `Radar chart.png` and `histogram chart.png` after k-means clustering.
 
 
-## Methodology ( Solution strategies )
-- **ORC and creating dataframe** : Using Google AI studio, transform the diaries into text datasets and create dataframe including datasets informations.
-- **Data Cleaning** : Clean the dataset by handling missing values, duplicates, and outliers, preparing it for effective clustering.
-- **Feature Engineering** : Develop new features based on `merged_df.csv` to create a customer-centric dataset, setting the foundation for customer segmentation.
-- **Data Preprocessing** : Undertake feature scaling and **dimensionality reduction(PCA, K-means, Silhouette Method)** to streamline the data, enhancing the efficiency of the clustering process.
-- **Customer Segmentation using k-Means Clsutering** : Segment customers into distinct groups using **K-means**, facilitating targeted marketing and personalized strategies.
-- **Cluster Analysis & Evaluation** : Analyze and profile each cluster to develop targeted marketing strategies and assess the quality of the clusters formed.
+## Strategies flow
+- **ORC and creating dataframe** : Using Google AI Studio, transform diaries into text datasets and create a dataframe with dataset information.
+- **Personal data encryption** : To protect privacy, encrypt students' names by replacing them with nicknames.
+- **Data analysis** : Using Neo4j (graph database system), analyze subtle changes in students' friendships and check their relationship status. Compare outcomes with n-gram structures in Neo4j.
+- **Pseudo labeling** : For unlabeled datasets, apply the "sangrimlee/bert-base-multilingual-cased-nsmc" model with the emotion column, and correct mislabeled data.
+- **Sentiment Analysis with BERT** : Perform sentiment analysis using both a pre-trained model and a fine-tuned model, then compare the results.
+- **LLM** : Use GPT API with prompt engineering to extract sentiment scores and identify causes of emotions.
+- **WeWeb** : Using WeWeb (no-code tool), build an emotional tracking calendar demo to visualize results.
   
 ## Key findings
 ### Customer Profiles Derived from Radar Chart Analysis
