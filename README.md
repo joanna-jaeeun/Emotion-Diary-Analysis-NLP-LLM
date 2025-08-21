@@ -38,8 +38,6 @@ This project demonstrates how to derive insights from students’ writings and c
 ![graph2](assets/Neo4graph2.png)
 
 
-
-
 ### Pretrained Model vs Fine_tuned model
 
 <div align="left">
@@ -54,7 +52,8 @@ This project demonstrates how to derive insights from students’ writings and c
 
 </div>
 
+### LLM
+
+
 ## Conclusions
 
-- User end : personalized shopping experiences based on their purchase behavior
-- Business end : personalized shopping experiences based on their purchase behavior, identify high-value or at-risk customers to improve retention and engagement, Supports personalized promotions, leading to improved ROI and reduced marketing costs.
