@@ -1,4 +1,4 @@
-# Sentiment Analaysis with Emotion Diary
+# NLP and LLM-based Analysis of Student Emotion Diaries
 
 ## Project Summary
 The aim of this project is to analyze students' handwritten emotion diaries and provide personalized feedback based on the results.
