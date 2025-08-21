@@ -27,7 +27,7 @@ This project demonstrates how to derive insights from students’ writings and c
 ## Key findings
 ### Customer Profiles Derived from Radar Chart Analysis
 
-![test](assets/Radarchart.png)
+![test](assets/Neo4jgraph1.png)
 **Cluster 0: Casual Weekend Shoppers**
 - Customers in this cluster usually shop less frequently and spend less money compared to other clusters.
 - They generally have a smaller number of transactions and purchase fewer products.
