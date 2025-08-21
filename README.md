@@ -42,13 +42,15 @@ This project demonstrates how to derive insights from students’ writings and c
 
 ### Pretrained Model vs Fine_tuned model
 
-<div align="center">
+<div align="left">
   
-| Pretrained Model | Suggested Marketing Strategies | Suggested Marketing Strategies |
-|:-------:|:-------------------------------|
-| **Cluster 0** | - Weekend-only promotions<br>- Casual browsing incentives (e.g., "Weekend Flash Sales")<br>- Loyalty rewards for consistent shoppers |
-| **Cluster 1** | - Personalized luxury or premium product offers<br>- Special discounts after periods of inactivity<br>- Exclusive early-access events |
-| **Cluster 2** | - Weekday-only discounts<br>- Bundling offers ("Buy more, save more")<br>- Reactivation campaigns to counteract decreasing trend |
+| Metrics | Pretrained Model | Fine_tuned model |
+|:-------:|:------------------------------:|:-------------------------------|
+| Accuracy | 0.588235  | 0.784313  |
+| F1 | 0.740740  | 0.835820 |
+| Precision | 0.588235  | 0.756756 |
+| Recall | 1.0 | 0.933333 |
+
 
 </div>
 
