@@ -32,9 +32,8 @@ This project demonstrates how to derive insights from students’ writings and c
 **Graph subjected to all diary**
 - dfdfdf
 
-![test2](assets/Neo4jgraph2)
 
-
+![graph2](assets/Neo4jgraph2.png)
 **Graph subjected to who write other studnets names**
 - Customers in this cluster shop infrequently, as indicated by a longer **Average_Days_Between_Purchases**.
 - 
