@@ -11,7 +11,7 @@ This project demonstrates how to derive insights from students’ writings and c
   - `Handwriting.pdf`: Example of original handwritten diary data
   - `Diary.csv` : Sample of dataframe containing 250 diary entries  
 - **notebook**
-  - `Sentiment_Analysis.ipynb` : Notebook for analysis and modeling
+  - `Analysis_of_Student_Emotion_Diaries.ipynb` : Notebook for analysis and modeling
 - **assets** :
 
 
