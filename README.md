@@ -44,7 +44,7 @@ This project demonstrates how to derive insights from students’ writings and c
 
 <div align="center">
   
-| Cluster | Suggested Marketing Strategies |
+| Pretrained Model | Suggested Marketing Strategies | Suggested Marketing Strategies |
 |:-------:|:-------------------------------|
 | **Cluster 0** | - Weekend-only promotions<br>- Casual browsing incentives (e.g., "Weekend Flash Sales")<br>- Loyalty rewards for consistent shoppers |
 | **Cluster 1** | - Personalized luxury or premium product offers<br>- Special discounts after periods of inactivity<br>- Exclusive early-access events |
