@@ -25,14 +25,12 @@ This project demonstrates how to derive insights from students’ writings and c
 - **WeWeb** : Using WeWeb (no-code tool), build an emotional tracking calendar demo to visualize results.
   
 ## Key findings
-### Customer Profiles Derived from Radar Chart Analysis
+
+### Shown friendship in studnets' diary with Neo4j
 
 ![test](assets/Neo4jgraph1.png)
-**Cluster 0: Casual Weekend Shoppers**
-- Customers in this cluster usually shop less frequently and spend less money compared to other clusters.
-- They generally have a smaller number of transactions and purchase fewer products.
-- They prefer shopping during weekends, possibly engaging in casual or window shopping.
-- Their spending habits are quite stable over time, showing little fluctuation in their monthly spending.
+**Graph subjected to all diary**
+- 
   
 **Cluster 1: Occasional Big Spenders**
 - Customers in this cluster shop infrequently, as indicated by a longer **Average_Days_Between_Purchases**.
