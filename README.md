@@ -30,21 +30,16 @@ This project demonstrates how to derive insights from students’ writings and c
 
 ![test](assets/Neo4jgraph1.png)
 **Graph subjected to all diary**
-- 
-  
-**Cluster 1: Occasional Big Spenders**
+- dfdfdf
+
+![test](assets/Neo4jgraph2.png)
+**Graph subjected to who write other studnets names**
 - Customers in this cluster shop infrequently, as indicated by a longer **Average_Days_Between_Purchases**.
-- Their spending has been increasing, suggesting a growing interest or investment in their purchases.
-- They tend to have high monthly spending with a large standard deviation, indicating variability in spending within the group.
-- Their **Average_Transaction_Value** is high compared to other clusters.
+- 
 
-**Cluster 2: Frequent Big Spenders**
-- Customers in this cluster shop frequently, with a high total purchase volume and number of transactions.
-- Although they shop often, they tend to spend less per transaction, buying a variety of products.
-- They prefer shopping on weekdays.
-- Their spending trend is decreasing, which might signal a future change in their shopping habits.
 
-### Marketing strategies
+
+### Pretrained Model vs Fine_tuned model
 
 <div align="center">
   
