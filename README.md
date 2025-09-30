@@ -3,7 +3,7 @@
 ## Project Summary
 The aim of this project is to analyze students' handwritten emotion diaries and provide personalized feedback based on the results.
 Technically, the project focuses on NLP and LLM techniques, including sentiment analysis with BERT and prompt engineering to extract targeted insights.
-Additionally, Neo4j and WeWeb were used to visualize outcomes, making the project more intuitive and engaging.
+Additionally, Neo4j and Streamlit were used to visualize outcomes, making the project more intuitive and engaging.
 This project demonstrates how to derive insights from students’ writings and contributes to supporting children’s personal growth.
 
 ## Repository Contents
