@@ -22,6 +22,6 @@ This project demonstrates how to derive insights from students’ writings and c
 - **Personal data encryption** : To protect privacy, encrypt students' names by replacing them with nicknames.
 - **Data analysis** : Using Neo4j (graph database system), analyze subtle changes in students' friendships and check their relationship status. Compare outcomes with n-gram structures in Neo4j.
 - **Pseudo labeling** : For unlabeled datasets, apply the "sangrimlee/bert-base-multilingual-cased-nsmc" model with the emotion column, and correct mislabeled data.
-- **Sentiment Analysis with BERT** : Perform sentiment analysis using both a pre-trained model and a fine-tuned model, then compare the results.
+- **Sentiment Analysis with BERT** : Perform sentiment analysis using both a pre-trained model and a fine-tuned model ("beomi/KcELECTRA-base"), then compare the results.
 - **LLM** : Use GPT API with prompt engineering to extract sentiment scores and identify causes of emotions.
 - **Streamlit** : Using Streamlit, build an emotional tracking calendar and graph demo to visualize results.
