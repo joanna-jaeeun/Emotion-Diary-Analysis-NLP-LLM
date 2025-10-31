@@ -1,6 +1,6 @@
 # NLP and LLM-based Analysis of Student Emotion Diaries
 
-## Project Summary
+## Project Story
 The aim of this project is to analyze students' handwritten emotion diaries and provide personalized feedback based on the results.
 Technically, the project focuses on NLP and LLM techniques, including sentiment analysis with BERT and prompt engineering to extract targeted insights.
 Additionally, Neo4j and Streamlit were used to visualize outcomes, making the project more intuitive and engaging.
