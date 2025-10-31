@@ -18,12 +18,14 @@ This project demonstrates how to derive insights from students’ writings and c
 
   
 ## Strategies flow
-- **OCR and creating dataframe** : Using Google AI Studio, transform diaries into text datasets and create a dataframe with dataset information.
+- **Data Preprocessing**
+  - **OCR and creating dataframe** : Using Google AI Studio, transform diaries into text datasets and create a dataframe with dataset information.
 - **Personal data encryption** : To protect privacy, encrypt students' names by replacing them with nicknames.
 - **Data analysis** : Using Neo4j (graph database system), analyze subtle changes in students' friendships and check their relationship status. Compare outcomes with n-gram structures in Neo4j.
-- **Pseudo labeling** : For unlabeled datasets, apply the "sangrimlee/bert-base-multilingual-cased-nsmc" model with the emotion column, and correct mislabeled data.
-- **Sentiment Analysis with BERT** : Perform sentiment analysis using both a pre-trained model and a fine-tuned model ("beomi/KcELECTRA-base"), then compare the results.
-
+- **Modeling**
+  - **Pseudo labeling** : For unlabeled datasets, apply the "sangrimlee/bert-base-multilingual-cased-nsmc" model with the emotion column, and correct mislabeled data.
+  - **Sentiment Analysis with BERT** : Perform sentiment analysis using both a pre-trained model and a fine-tuned model ("beomi/KcELECTRA-base"), then compare the results.
+    
 <div align="center">
   
 | Model        | Accuracy | F1 Score | Precision | Recall |
@@ -32,6 +34,11 @@ This project demonstrates how to derive insights from students’ writings and c
 | Fine-tuned   | 0.58     | 0.74     | 0.58      | 1.0    |
 
 </div>
+
+- **Generating emotion calendar**
+  - **LLM-Prompt engineering** : Extract sentiment scores and find causes of the emotion status to give constructive feedback to students.
+  - **Sreamlit** : Using Streamlit, build an emotional tracking calendar and graph demo to visualize results.
+    
+
   
-- **LLM** : Use GPT API with prompt engineering to extract sentiment scores and identify causes of emotions.
-- **Streamlit** : Using Streamlit, build an emotional tracking calendar and graph demo to visualize results.
+
