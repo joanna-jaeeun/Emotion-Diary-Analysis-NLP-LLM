@@ -9,7 +9,7 @@ This year, a third-grade homeroom teacher, I noticed that my students often got 
   - `Handwritten_diary_sample` : Handwritten diary data sample
   - `diary_sample.csv` : Sample of dataframe containing around 250 diary entries  
 - **notebook**
-  - `Analysis_of_Student_Emotion_Diaries.ipynb` : Notebook for analysis and modeling
+  - `Analysis_of_Student_Emotion_Diaries.ipynb` : Notebook for analysis and modeling. 
 - **deployment**:
    - `emotion_calendar.py`: Generates the emotion calendar
    - `emotion_graph.py`: Generates the emotion graph
@@ -20,6 +20,8 @@ This year, a third-grade homeroom teacher, I noticed that my students often got 
   - **OCR and creating dataframe** : Using Google AI Studio, transform diaries into text datasets and create a dataframe with dataset information.
 - **Personal data encryption** : To protect privacy, encrypt students' names by replacing them with nicknames.
 - **Data analysis** : Using Neo4j (graph database system), analyze subtle changes in students' friendships and check their relationship status.
+
+  The insights of graph can be found in the notebook
   
 <p align="center">
   <img src="assets/Neo4jgraph1.png" width="600" alt="Project Logo">
@@ -31,6 +33,7 @@ This year, a third-grade homeroom teacher, I noticed that my students often got 
   <img src="assets/Neo4graph2.png" width="600" alt="Project Logo">
 </p>
 <p align="center"><em>Graph2 for students who mentioned other students' names in their diaries</em></p>
+
 
 
 - **Modeling**
