@@ -19,9 +19,7 @@ This year, a third-grade homeroom teacher, I noticed that my students often got 
 - **Data Preprocessing**
   - **OCR and creating dataframe** : Using Google AI Studio, transform diaries into text datasets and create a dataframe with dataset information.
 - **Personal data encryption** : To protect privacy, encrypt students' names by replacing them with nicknames.
-- **Data analysis** : Using Neo4j (graph database system), analyze subtle changes in students' friendships and check their relationship status.
-
-  The insights of graph can be found in the notebook
+- **Data analysis** : Using Neo4j (graph database system), analyze subtle changes in students' friendships and check their relationship status.(The detailed insights of graph can be found in the notebook)
   
 <p align="center">
   <img src="assets/Neo4jgraph1.png" width="600" alt="Project Logo">
