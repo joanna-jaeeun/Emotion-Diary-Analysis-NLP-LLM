@@ -6,8 +6,8 @@ This year, a third-grade homeroom teacher, I noticed that my students often got 
 
 ## Repository Contents
 - **data** :
-  - `Handwriting.pdf`: Handwritten diary data form
-  - `Diary.csv` : Sample of dataframe containing around 250 diary entries  
+  - `Handwritten_diary_sample` : Handwritten diary data sample
+  - `diary_sample.csv` : Sample of dataframe containing around 250 diary entries  
 - **notebook**
   - `Analysis_of_Student_Emotion_Diaries.ipynb` : Notebook for analysis and modeling
 - **deployment**:
